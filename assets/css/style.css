@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+header::before{
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   background-color: #082d5e;
+   background-image: url("../images/sigmund-By-tZImt0Ms-unsplash\ 1.png");
+   background-size: cover;
+   height: 100vh;
+   width: 100vw;
+   display: block;
+   z-index: -10;
+}
+
+
+h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 120px;
+    color: red;
+}
+
+h2{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 96px;
+    color:#CCAAFD;
+}
+
+
