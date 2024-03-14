@@ -10,7 +10,7 @@ header::before{
    position: absolute;
    top: 0;
    left: 0;
-   background-color: #082d5e;
+   background-color: rgb(184, 171, 171);
    background-image: url("../images/sigmund-By-tZImt0Ms-unsplash\ 1.png");
    background-size: cover;
    height: 100vh;
@@ -31,7 +31,7 @@ h2{
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 96px;
-    color:#CCAAFD;
+    color:#050899;
 }
 
 
@@ -41,6 +41,7 @@ h2{
     padding: 2rem;
     gap: 5rem;
     height: 100vh;
+    background-color: rgb(184, 171, 171);
 }
 
 
@@ -63,5 +64,47 @@ h2{
 #jacaredobrejo p
 {
     font-size: 1.25rem;
+}
+
+#secao-projeto
+{
+    height: 100vh;
+    background-color: rgb(184, 171, 171);
+}
+
+#secao-projeto ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+}
+
+#secao-projeto li{
+    list-style: none;
+}
+
+.card{
+    max-height: 400px;
+    max-width: 300px;
+    position: relative;
+    cursor: pointer;
+}
+
+.card.image{
+    height: 100%;
+    width: 100;
+}
+.image img{
+    height:100% ;
+    width: 100%;
+}
+.card .texto{
+    position: absolute;
+    top: 0; 
+    opacity: 0; 
+    transition: opacity .5s;  
+}
+
+.card:hover .texto{   
+    opacity: 1;   
 }
 
