@@ -1,6 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+header{
+    height: 100vh ;
+}
+
 header::before{
    content: "";
    position: absolute;
@@ -30,4 +34,34 @@ h2{
     color:#CCAAFD;
 }
 
+
+#secao-apresetacao{
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    gap: 5rem;
+    height: 100vh;
+}
+
+
+#secao-apresetacao img{
+    border-radius: 50%;
+    height: 10rem;
+    width: 10rem;
+}
+
+#jacaredobrejo
+{
+    color: black;
+}
+
+#jacaredobrejo h2
+{
+    font-size: 2.25rem;
+}
+
+#jacaredobrejo p
+{
+    font-size: 1.25rem;
+}
 
