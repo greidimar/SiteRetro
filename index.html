@@ -71,8 +71,98 @@
                 </div>
             </li>
         </ul>
+    </section>
 
+    <section id="secao-formulario">
+        <h2> Título </h2>
+        <form action="post">
+            <div class="campo linha">
+                <label for ="nome"> Nome</label>
+                <input type="text" id="nome">
+            </div>
 
+            <div class="campo">
+                <label for ="qtde"> Quantidade</label>
+                <input type="number" id="qtde" min="1" step="10">
+            </div>
+
+            <div class="campo">
+                <label for ="tipo"> Tipo</label>
+                <select name="tipo" id="tipo">
+                    <option value="0"> Selecione o tipo </option>
+                    <option value="1"> Estático </option>
+                    <option value="2"> Dinámico </option>
+                </select>
+            </div>
+
+            <div class="campo linha">
+                <label for =""> Precisa de prototipo</label>
+
+                <input name ="prot" type="radio" id="prot_sim">
+                <label for ="prot_sim"> Sim. preciso </label>
+
+                <input name ="prot" type="radio" id="prot_nao">
+                <label for ="prot_nao"> Não. preciso </label>
+            </div>
+            
+            <div class="campo">
+                <input type="checkbox" id="js">
+                <label for ="js"> Tem automação</label>
+            </div>
+
+            <div class="campo">
+                <label for ="prazo"> Prazo</label>
+                <input type="range">
+            </div>
+
+            <div class="campo">
+                <label for ="Estados"> Estados</label>
+                <input type="text" list="estados">
+
+                <datalist id="estados">               
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="AM">Amazonas</option>
+                    <option value="BA">ahia</option>
+                    <option value="CE">Ceará</option>
+                    <option value="DF">Distrito Federal</option>
+                    <option value="ES">Espírito Santo</option>
+                    <option value="GO">Goiás</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                    <option value="MG">Minas Gerais</option>
+                    <option value="PA">Pará</option>
+                    <option value="PB">Paraíba</option>
+                    <option value="PR">Paraná</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="PI">Piauí</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="RO">Rondônia</option>
+                    <option value="RR">Roraima</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="TO">Tocantins</option>
+                </datalist>
+            </div>
+
+            <div class="campo">
+               
+            </div>
+
+            <div class="campo">
+                <input type="reset" value="Enviar">
+            </div>
+
+            <div class="campo">
+                <input type="reset" value="Limpar">
+            </div>
+
+        </form>
 
     </section>
  
