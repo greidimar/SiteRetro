@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site Retro</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/script.js" defer></script>
 </head>
 
 <body>
@@ -74,7 +75,8 @@
     </section>
 
     <section id="secao-formulario">
-        <h2> Título </h2>
+        <h3> Compre seu video game retro e game um game grátis </h3>
+        <h3> Preencher o cadastro e escolher o game </h3>
         <form action="post">
             <div class="campo linha">
                 <label for ="nome"> Nome</label>
@@ -82,27 +84,27 @@
             </div>
 
             <div class="campo">
-                <label for ="qtde"> Quantidade</label>
-                <input type="number" id="qtde" min="1" step="10">
+                <label for ="qtde"> Qtde </label>
+                <input type="number" id="qtde" min="1" step="10" value="1">
             </div>
 
             <div class="campo">
                 <label for ="tipo"> Tipo</label>
                 <select name="tipo" id="tipo">
                     <option value="0"> Selecione o tipo </option>
-                    <option value="1"> Estático </option>
-                    <option value="2"> Dinámico </option>
+                    <option value="1"> Video Game </option>
+                    <option value="2"> Game </option>
                 </select>
             </div>
 
             <div class="campo linha">
-                <label for =""> Precisa de prototipo</label>
+                <label for =""> Novo ou Usado</label>
 
                 <input name ="prot" type="radio" id="prot_sim">
-                <label for ="prot_sim"> Sim. preciso </label>
+                <label for ="prot_sim"> Novo </label>
 
                 <input name ="prot" type="radio" id="prot_nao">
-                <label for ="prot_nao"> Não. preciso </label>
+                <label for ="prot_nao"> Usado</label>
             </div>
             
             <div class="campo">
@@ -163,6 +165,8 @@
             </div>
 
         </form>
+
+        <span id="orcamento"> R$500,00 </span>
 
     </section>
  
